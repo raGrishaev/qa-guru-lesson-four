@@ -11,16 +11,16 @@ import static com.codeborne.selenide.Selenide.*;
 public class searchSoftAssertionsAndCodeForJUnit {
 
     @BeforeAll
-    public static void beforeAll(){
+    public static void beforeAll() {
         Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl="https://github.com";
-        Configuration.holdBrowserOpen=false;
+        Configuration.baseUrl = "https://github.com";
+        Configuration.holdBrowserOpen = false;
         Configuration.pageLoadStrategy = "eager";
 
     }
 
     @Test
-    void searchSoftAssertionsAndCodeForJUnit(){
+    void searchSoftAssertionsAndCodeForJUnit() {
 
         open("/selenide/selenide");
         $("#wiki-tab").click();
