@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class searchSoftAssertionsAndCodeForJUnit {
+public class SearchSoftAssertionsAndCodeForJUnit {
 
     @BeforeAll
     public static void beforeAll() {
@@ -20,7 +20,7 @@ public class searchSoftAssertionsAndCodeForJUnit {
     }
 
     @Test
-    void searchSoftAssertionsAndCodeForJUnit() {
+    void searchSoftAssertionsAndCodeForJUnitTest() {
 
         open("/selenide/selenide");
         $("#wiki-tab").click();
