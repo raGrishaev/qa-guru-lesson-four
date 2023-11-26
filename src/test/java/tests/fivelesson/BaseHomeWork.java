@@ -19,7 +19,7 @@ public class BaseHomeWork {
     }
 
     @Test
-    void searchSoftAssertionsAndCodeForJUnitTest() {
+    void baseHomeWorkTest() {
         open(Configuration.baseUrl);
         $("ul.d-lg-flex.list-style-none").$(byText("Solutions")).hover();
         $("[href='/enterprise']").click();
