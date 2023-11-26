@@ -1,4 +1,4 @@
-package tests;
+package tests.fourlesson;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -16,7 +16,6 @@ public class SearchSoftAssertionsAndCodeForJUnit {
         Configuration.baseUrl = "https://github.com";
         Configuration.holdBrowserOpen = false;
         Configuration.pageLoadStrategy = "eager";
-
     }
 
     @Test
